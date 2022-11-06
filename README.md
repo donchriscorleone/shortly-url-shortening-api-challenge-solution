@@ -29,11 +29,11 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop (1440px)](./screenshots/Desktop@1440.png)
-![Desktop Active States (1440px)](./screenshots/Desktop Active State.png)
+![Desktop Active States (1440px)](./screenshots/DesktopActiveState.png)
 
 
 ![Mobile (375px)](./screenshots/Mobile@375.png)
-![Mobile Navigation Active(375px)](./screenshots/Mobile Navigation Active.png)
+![Mobile Navigation Active(375px)](./screenshots/MobileNavigationActive.png)
 
 
 ### Links
