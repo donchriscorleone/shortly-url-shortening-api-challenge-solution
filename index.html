@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+</head>
+<body class="">
+  <header class="header">
+    <a href="#" class="home" aria-label="Home page">
+      <svg class="icon">
+        <use xlink:href="./images/logo.svg#logo"></use>
+      </svg>
+    </a>
+    <button class="mobile-nav-toggle" aria-label="Hamburger button" aria-expanded="false">
+      <img src="./images/menu-outline.svg" alt="Hamburger menu">
+    </button>
+    <nav class="primary-nav" aria-expanded="false">
+      <ul class="primary-list | flow" role="list">
+        <li><a class="" href="#">Features</a></li>
+        <li><a class="" href="#">Pricing</a></li>
+        <li><a class="" href="#">Resources</a></li>
+      </ul>
+      <ul class="secondary-list | flow">
+        <li><a class="" href="#">Login</a></li>
+        <li><a class="btn " data-type="primary" data-shape="pill" href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main | flow bg-neutral-300">
+    <div class="banner | container grid even-columns bg-neutral-100">
+      <div class="banner-block | block flow">
+        <h1>More than just shorter links</h1>
+        <p>
+          Build your brand’s recognition and get detailed insights 
+          on how your links are performing.
+        </p>
+        <button class="btn" data-type="primary" data-shape="pill">Get Started</button>
+      </div>
+      <img src="./images/illustration-working.svg" alt="An illustration of a working person">
+    </div>
+    
+    <div class="shorten | container">
+      <div class="shorten-form-wrapper">
+        <form action="POST" id="form">
+          <div class="form-field">
+            <label for="link" class="visually-hidden">Link</label>
+            <input placeholder="Shorten a link here..." type="text" id="link" name="link">
+            <span class="form-error-message">Please add a link</span>
+          </div>
+          <button class="btn" data-type="primary">Shorten It!</button>
+        </form>
+      </div>
+
+      <div class="links">
+        <div class="link-card">
+          <span class="original">https://www.frontendmentor.io</span>
+          <span class="new-link | color-primary-400">https://relink.123</span>
+          <button class="btn btn-copy" data-text="https://relink.123" data-type="primary">Copy</button>
+        </div>
+
+        <div class="link-card">
+          <span class="original">https://www.youtube.com</span>
+          <span class="new-link | color-primary-400">https://relink.456</span>
+          <button class="btn btn-copy" data-text="https://relink.456" data-type="primary">Copy</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="features | container">
+      <div class="block flow container">
+        <h2 class="features-header | color-neutral-900">Advanced Statistics</h2>
+        <p class="features-body | color-neutral-200">
+          Track how your links are performing across the web with our 
+          advanced statistics dashboard.
+        </p>
+      </div>
+
+      <div class="list-of-features">
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg class="icon icon-feature">
+              <use xlink:href="./images/feature.svg#icon-fully-customizable"></use>
+            </svg>
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-header">Brand Recognition</h3>
+            <p class="feature-body">Boost your brand recognition with each click. Generic links don’t 
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg class="icon icon-feature">
+              <use xlink:href="./images/feature.svg#icon-fully-customizable"></use>
+            </svg>
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-content">Brand Recognition</h3>
+            <p class="feature-body">Boost your brand recognition with each click. Generic links don’t 
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg class="icon icon-feature">
+              <use xlink:href="./images/feature.svg#icon-fully-customizable"></use>
+            </svg>
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-content">Brand Recognition</h3>
+            <p class="feature-body">Boost your brand recognition with each click. Generic links don’t 
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="cta">
+      <div class="block">
+        <h2 class="color-neutral-100">Boost your links today</h2>
+        <button class="btn" data-type="primary" data-shape="pill">Get Started</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-home" href="#" aria-label="Home page">
+      <svg class="icon icon-feature">
+        <use xlink:href="./images/logo.svg#logo"></use>
+      </svg>
+    </a>
+
+    <div class="footer-links">
+      <ul class="list">
+        <li><a href="#" class="footer-link footer-header-link">Features</a></li>
+        <li><a href="#" class="footer-link">Link Shortening</a></li>
+        <li><a href="#" class="footer-link">Branded Links</a></li>
+        <li><a href="#" class="footer-link">Analytics</a></li>
+      </ul>
+      <ul class="list">
+        <li><a href="#" class="footer-link footer-header-link">Resources</a></li>
+        <li><a href="#" class="footer-link">Blog</a></li>
+        <li><a href="#" class="footer-link">Development</a></li>
+        <li><a href="#" class="footer-link">Support</a></li>
+      </ul>
+      <ul class="list">
+        <li><a href="#" class="footer-link footer-header-link">Company</a></li>
+        <li><a href="#" class="footer-link">About</a></li>
+        <li><a href="#" class="footer-link">Our Team</a></li>
+        <li><a href="#" class="footer-link">Careers</a></li>
+        <li><a href="#" class="footer-link">Contact</a></li>
+      </ul>
+      <ul class="medias">
+        <li>
+          <a href="#">
+            <svg class="icon icon-media">
+              <use xlink:href="./images/social-media.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg class="icon icon-media">
+              <use xlink:href="./images/social-media.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg class="icon icon-media">
+              <use xlink:href="./images/social-media.svg#icon-pinterest"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg class="icon icon-media">
+              <use xlink:href="./images/social-media.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="attribution">
+
+      <ul class="list">
+        <li>
+          <a target="_blank" class="attribution-link color-neutral-200" href="https://www.frontendmentor.io/home">Challenged by Frontend Mentor</a>
+        </li>
+        <li>
+          <a target="_blank" class="attribution-link color-neutral-200" href="https://www.frontendmentor.io/profile/donchriscorleone">Coded by Christopher II</a>
+        </li>
+        <li><a target="_blank" class="attribution-link footer-link | color-neutral-200" href="https://www.instagram.com/devchristopherii">Instagram</a></li>
+        <li><a target="_blank" class="attribution-link footer-link | color-neutral-200" href="https://www.github.com/donchriscorleone">GitHub</a></li>
+        <li><a target="_blank" class="attribution-link footer-link | color-neutral-200" href="https://www.twitter.com/topheriidev">Twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
