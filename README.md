@@ -39,8 +39,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-first-workflow-using-only-html-and-css-XzMG4edyHw)
-- Live Site URL: [GitHub Pages](https://donchriscorleone.github.io/news-homepage-solution/)
-- GitHub Repo: [GitHub]()
+- Live Site URL: [GitHub Pages](https://donchriscorleone.github.io/shortly-url-shortening-api-challenge-solution)
+- GitHub Repo: [GitHub](https://github.com/donchriscorleone/shortly-url-shortening-api-challenge-solution)
 
 ## My process
 
